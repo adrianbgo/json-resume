@@ -1,0 +1,28 @@
+{
+  "name": "json-resume",
+  "version": "0.1.0",
+  "description": "A resume styler and selector based on the json-resume schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianbgo/json-resume.git"
+  },
+  "keywords": [
+    "json",
+    "js",
+    "ts",
+    "resume",
+    "json-resume",
+    "css",
+    "hbs"
+  ],
+  "author": "adrianbgo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianbgo/json-resume/issues"
+  },
+  "homepage": "https://github.com/adrianbgo/json-resume#readme"
+}
