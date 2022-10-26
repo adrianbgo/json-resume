@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Resume from "./views/resume";
+import Resume from "./views/Resume";
 
 function App() {
   const [count, setCount] = useState(0);
