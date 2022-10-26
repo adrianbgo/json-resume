@@ -1,28 +1,22 @@
 {
   "name": "json-resume",
-  "version": "0.1.0",
-  "description": "A resume styler and selector based on the json-resume schema",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adrianbgo/json-resume.git"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "keywords": [
-    "json",
-    "js",
-    "ts",
-    "resume",
-    "json-resume",
-    "css",
-    "hbs"
-  ],
-  "author": "adrianbgo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adrianbgo/json-resume/issues"
-  },
-  "homepage": "https://github.com/adrianbgo/json-resume#readme"
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
 }
