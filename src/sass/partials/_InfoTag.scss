@@ -1,0 +1,17 @@
+@import "../core/all";
+.info-tag-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem;
+  vertical-align: middle;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  width: 1em;
+}
+
+.info-tag-link {
+  text-decoration: none;
+  color: $color-text;
+}

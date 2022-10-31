@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Ubuntu:wght@700&display=swap");
+// Font Size Variables
+$base-font-size: 1em;
+$text-scale-ratio: 1.2;
+
+// Type Scale
+$text-xs: calc($base-font-size / ($text-scale-ratio * $text-scale-ratio));
+$text-sm: calc($base-font-size / $text-scale-ratio);
+$text-md: calc($base-font-size * $text-scale-ratio);
+$text-lg: calc($base-font-size * $text-scale-ratio * $text-scale-ratio);
+$text-xl: calc(
+  $base-font-size * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio
+);
+$text-xxl: calc(
+  $base-font-size * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+    $text-scale-ratio
+);
+$text-xxxl: calc(
+  $base-font-size * $text-scale-ratio * $text-scale-ratio * $text-scale-ratio *
+    $text-scale-ratio * $text-scale-ratio
+);
+
+// Font Style Variables
+$font-primary: Ubuntu, sans;
+$font-heading: Roboto Serif, serif;
+
+// Color Variables
+$color-text: black;

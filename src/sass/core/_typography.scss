@@ -1,0 +1,43 @@
+@import "../abstracts/all";
+
+body {
+  font-size: $base-font-size;
+  font-family: $font-primary;
+  color: $color-text;
+}
+
+h1,
+.text-xxl {
+  font-size: $text-xxl;
+}
+
+h2,
+.text-xl {
+  font-size: $text-xl;
+}
+
+h3,
+.text-lg {
+  font-size: $text-lg;
+}
+
+h4,
+p,
+.text-md {
+  font-size: $text-md;
+}
+
+small,
+.text-sm {
+  font-size: $text-sm;
+}
+
+.title {
+  font-family: $font-heading;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+em {
+  font-style: italic;
+}
